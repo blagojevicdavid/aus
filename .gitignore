@@ -1,0 +1,30 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+
+# Compiled output
+*.dll
+*.exe
+!MdbSim/MdbSim/MdbSim/ModbusSim.exe
+
+# Temporary files
+*.tmp
+*.cache
+*_MarkupCompile.cache
+*_MarkupCompile.lref
+*_MarkupCompile.i.cache
+*.g.cs
+*.g.i.cs
+GeneratedInternalTypeHelper.g.cs
+GeneratedInternalTypeHelper.g.i.cs
+
+# macOS
+.DS_Store
